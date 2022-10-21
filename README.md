@@ -14,15 +14,15 @@ This tool is capable of creating a wordlist based on a given website
 1. Install curl and git then clone this repository
     * In Ubuntu/Debian
     ```
-     sudo apt install curl git -y && git clone https://github.com/MathSabo/wordlistmaker && chmod 755 wordlistmaker/wordlistmaker/
+     sudo apt install curl git -y && git clone https://github.com/MathSabo/wordlistmaker && chmod 755 wordlistmaker/wordlistmaker
     ```
     * In CentOS / Fedora / RHEL
     ```
-     sudo yum install curl git -y && git clone https://github.com/MathSabo/wordlistmaker && chmod 755 wordlistmaker/wordlistmaker/
+     sudo yum install curl git -y && git clone https://github.com/MathSabo/wordlistmaker && chmod 755 wordlistmaker/wordlistmaker
     ```
     * In ArchLinux
     ```
-     sudo pacman -Sy install curl git && git clone https://github.com/MathSabo/wordlistmaker && chmod 755 wordlistmaker/wordlistmaker/
+     sudo pacman -Sy install curl git && git clone https://github.com/MathSabo/wordlistmaker && chmod 755 wordlistmaker/wordlistmaker
     ```
 2. Using it
     * Adding it to PATH
