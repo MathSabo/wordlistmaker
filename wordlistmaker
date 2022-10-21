@@ -10,16 +10,25 @@ Help()
 	echo "-h	Display this help"
 }
 
+Error()
+{
+        echo "Unknown Option. Type -h to display the help page."
+}
+
+no_args="true"
 while getopts ":h" option; do
-	case $option in
-		h)
-			Help
-			exit;;
-		\?)
-			echo "Unkown Option. Type -h to display the help page."
-			exit;;
-	esac
+        case $option in
+                h)
+                        Help
+                        exit;;
+                \?)
+                        Error
+                        exit;;
+        esac
+        no_args="false"
 done
+
+[[ "$no_args" == "true" ]] && { Error; exit 1; }
 
 dir=~/.wordlistmaker/
 wlp=$dir/$2
