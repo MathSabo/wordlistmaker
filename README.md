@@ -31,6 +31,7 @@ This tool is capable of creating a wordlist based on a given website\
      sudo cp wordlistmaker/wordlistmaker /usr/bin/wordlistmaker && rm -rf wordlistmaker
     ```
 
+    * Usage
     ```
      wordlistmaker <url> <name of wordlist>
     ```
