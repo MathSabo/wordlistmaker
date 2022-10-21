@@ -30,6 +30,8 @@ wlp=$dir/$2
 		mkdir ~/.wordlistmaker/
 	fi
 
+echo "Wordlistmaker by MathSabo"
+
 curl -s $1 | sed 's/[^a-zA-Z ]/ /g' | tr 'A-Z ' 'a-z\n' | grep '[a-z]' | sort -u > $wlp
 
 echo -e "\nFile saved in "$wlp
