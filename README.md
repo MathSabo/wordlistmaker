@@ -35,5 +35,5 @@ This tool is capable of creating a wordlist based on a given website\
     ```
      wordlistmaker <url> <name of wordlist>
     ```
-    The wordlist will be saved in <Home of user>/.wordlistmaker/<wordlist name>
+    The wordlist will be saved in `Home of user`/.wordlistmaker/`wordlist name`
 
