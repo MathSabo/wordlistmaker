@@ -1,0 +1,35 @@
+#!/bin/bash
+Help()
+{
+	echo "This program makes a wordlist with all possible words of the specified site"
+	echo
+	echo "Usage: wordlistmaker <url> <output>"
+	echo "Output will be saved in ~/.wordlistmaker"
+	echo
+	echo "Options:"
+	echo "-h	Display this help"
+}
+
+while getopts ":h" option; do
+	case $option in
+		h)
+			Help
+			exit;;
+		\?)
+			echo "Unkown Option. Type -h to display the help page."
+			exit;;
+	esac
+done
+
+dir=~/.wordlistmaker/
+wlp=$dir/$2
+
+	if test -d "$dir"; then
+		:
+	else
+		mkdir ~/.wordlistmaker/
+	fi
+
+curl -s $1 | sed 's/[^a-zA-Z ]/ /g' | tr 'A-Z ' 'a-z\n' | grep '[a-z]' | sort -u > $wlp
+
+echo -e "\nFile saved in "$wlp
