@@ -7,7 +7,7 @@
 
 ## General Info
 
-This tool is capable of creating a wordlist based on a given website\
+This tool is capable of creating a wordlist based on a given website
 
 ## Setup and usage
 
