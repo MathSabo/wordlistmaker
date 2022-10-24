@@ -11,6 +11,8 @@ This tool is capable of creating a wordlist based on a given website
 
 ## Setup and usage
 
+### Manual Setup
+
 1. Install curl and git then clone this repository
     * In Ubuntu/Debian
     ```
