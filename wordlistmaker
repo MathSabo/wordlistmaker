@@ -30,7 +30,7 @@ done
 
 [[ "$no_args" == "true" ]] && { Error; exit 1; }
 
-dir=~/.wordlistmaker/
+dir=~/.wordlistmaker
 wlp=$dir/$2
 
 	if test -d "$dir"; then
