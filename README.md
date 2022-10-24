@@ -16,6 +16,8 @@ This tool is capable of creating a wordlist based on a given website
 1. You can run (setup.sh)[https://github.com/MathSabo/wordlistmaker/blob/main/setup.sh] for an automated install
    ```
    chmod 755 setup.sh
+   ```
+   ```
    ./setup.sh
    ```
 
