@@ -36,11 +36,12 @@ This tool is capable of creating a wordlist based on a given website
     ```
      sudo pacman -Sy install curl git && git clone https://github.com/MathSabo/wordlistmaker && chmod 755 wordlistmaker/wordlistmaker
     ```
-2. Using it
-    * Adding it to PATH
+    
+2. Adding it to PATH
     ```
      sudo cp wordlistmaker/wordlistmaker /usr/bin/wordlistmaker && rm -rf wordlistmaker
     ```
+2. Using it
 
     * Usage
     ```
